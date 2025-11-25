@@ -25,17 +25,17 @@ export default function Welcome() {
     <section id="welcome">
       <p ref={subtitleRef}>
         {renderText(
-          "Hey, I'm Terry! Welcome to my",
+          "Hey, I'm Hope! Welcome to 0ur",
           "text-3xl font-georama",
           100
         )}
       </p>
       <h1 ref={titleRef} className="mt-7">
-        {renderText("portfolio", "text-9xl italic font-georama")}
+        {renderText("C0D3", "text-9xl italic font-georama")}
       </h1>
 
       <div className="small-screen">
-        <p>This Portfolio is designed fro desktop/tablet screens only.</p>
+        <p>of HOPE</p>
       </div>
     </section>
   );
